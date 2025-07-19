@@ -10,19 +10,17 @@ export default function Home() {
   const [accepted, setAccepted] = useState(false);
 
   const toggleSection = (section: Exclude<Section, null>) => {
-  setOpenSection(openSection === section ? null : section);
-};
+    setOpenSection(openSection === section ? null : section);
+  };
+  
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12 px-4 sm:px-6">
       <div className="max-w-4xl mx-auto bg-white shadow-xl rounded-xl overflow-hidden">
         {/* Header */}
         <div className="relative overflow-hidden bg-white py-8 px-8">
-         
-
           <div className="relative z-10 flex items-center justify-center mb-4">
-
             <h1 className="text-2xl text-black text-center uppercase font-bold">
-              Centron Bot's Terms of Service & Privacy Policy
+              Centron Bot&apos;s Terms of Service &amp; Privacy Policy
             </h1>
           </div>
           <p className="text-lg text-center font-medium text-black uppercase relative z-10">
@@ -50,7 +48,7 @@ export default function Home() {
                 <div className="prose max-w-none text-gray-700">
                   <h3 className="text-xl font-bold text-gray-900 mb-4">1. Introduction</h3>
                   <p className="mb-4">
-                    Welcome to Centron Bot ("Company," "we," "us," or "our"). These Terms and Conditions ("Terms") govern your access to and use of our Telegram-based cryptocurrency trading bot and related services, including our website located at tos.centronbot.app (collectively, the "Services"). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not access or use our Services.
+                    Welcome to Centron Bot (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). These Terms and Conditions (&quot;Terms&quot;) govern your access to and use of our Telegram-based cryptocurrency trading bot and related services, including our website located at tos.centronbot.app (collectively, the &quot;Services&quot;). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not access or use our Services.
                   </p>
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">2. Eligibility and Acceptance</h3>
@@ -93,7 +91,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">4. Account Registration</h3>
                   <h4 className="font-semibold text-gray-800 mb-2">4.1 Account Creation</h4>
                   <p className="mb-4">
-                    To access certain features of the Services, you may need to create an account ("Account"). You agree to:
+                    To access certain features of the Services, you may need to create an account (&quot;Account&quot;). You agree to:
                   </p>
                   <ul className="list-disc pl-6 mb-4 space-y-2">
                     <li>Provide accurate, current, and complete information during the registration process.</li>
@@ -135,7 +133,7 @@ export default function Home() {
             )}
           </div>
 
-          {/* Privacy Policy - Updated with your content */}
+          {/* Privacy Policy */}
           <div className={`mb-6 border border-gray-200 rounded-lg transition-all duration-300 ${openSection === 'privacy' ? 'shadow-md' : ''}`}>
             <div
               className="flex justify-between items-center p-4 bg-gray-50 rounded-t-lg cursor-pointer"
@@ -154,12 +152,12 @@ export default function Home() {
                 <div className="prose max-w-none text-gray-700">
                   <h3 className="text-xl font-bold text-gray-900 mb-4">1. Introduction</h3>
                   <p className="mb-4">
-                    Centron Bot ("Company," "we," "us," or "our") respects your privacy and is committed to protecting your personal data. This Privacy Policy ("Policy") explains how we collect, use, disclose, and safeguard your information when you use our Telegram-based cryptocurrency trading bot and related services, including our website located at tos.centronbot.app (collectively, the "Services"). It also informs you about your privacy rights and how the law protects you. This Policy is part of our Terms and Conditions, and by accessing or using our Services, you agree to both this Policy and the Terms and Conditions. If you do not agree with the terms of this Policy, please do not use our Services.
+                    Centron Bot (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) respects your privacy and is committed to protecting your personal data. This Privacy Policy (&quot;Policy&quot;) explains how we collect, use, disclose, and safeguard your information when you use our Telegram-based cryptocurrency trading bot and related services, including our website located at tos.centronbot.app (collectively, the &quot;Services&quot;). It also informs you about your privacy rights and how the law protects you. This Policy is part of our Terms and Conditions, and by accessing or using our Services, you agree to both this Policy and the Terms and Conditions. If you do not agree with the terms of this Policy, please do not use our Services.
                   </p>
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">2. Data Controller Contact Information</h3>
                   <p className="mb-4">
-                    For the purposes of the General Data Protection Regulation ("GDPR") and other applicable data protection laws, the data controller is:
+                    For the purposes of the General Data Protection Regulation (&quot;GDPR&quot;) and other applicable data protection laws, the data controller is:
                   </p>
                   <ul className="list-disc pl-6 mb-4 space-y-2">
                     <li>Centron Bot</li>
@@ -282,7 +280,7 @@ export default function Home() {
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">10. International Data Transfers</h3>
                   <p className="mb-4">
-                    Your personal data may be transferred to and processed in countries outside the European Economic Area ("EEA"). We ensure that appropriate safeguards are in place to protect your personal data in accordance with this Policy and applicable laws.
+                    Your personal data may be transferred to and processed in countries outside the European Economic Area (&quot;EEA&quot;). We ensure that appropriate safeguards are in place to protect your personal data in accordance with this Policy and applicable laws.
                   </p>
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">11. Data Security</h3>
@@ -321,12 +319,12 @@ export default function Home() {
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">16. Do Not Track Signals</h3>
                   <p className="mb-4">
-                    Our Services do not respond to Do Not Track ("DNT") signals. DNT is a preference you can set in your browser to inform websites that you do not want to be tracked.
+                    Our Services do not respond to Do Not Track (&quot;DNT&quot;) signals. DNT is a preference you can set in your browser to inform websites that you do not want to be tracked.
                   </p>
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">17. Changes to This Privacy Policy</h3>
                   <p className="mb-4">
-                    We may update this Policy from time to time. We will notify you of any significant changes by posting the new Policy on this page and updating the "Effective Date" at the top. Your continued use of the Services after any changes indicates your acceptance of the updated Policy.
+                    We may update this Policy from time to time. We will notify you of any significant changes by posting the new Policy on this page and updating the &quot;Effective Date&quot; at the top. Your continued use of the Services after any changes indicates your acceptance of the updated Policy.
                   </p>
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">18. Contact Information</h3>
@@ -339,10 +337,10 @@ export default function Home() {
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">19. Definitions</h3>
                   <ul className="list-disc pl-6 mb-4 space-y-2">
-                    <li><strong>"Personal Data":</strong> Any information relating to an identified or identifiable natural person.</li>
-                    <li><strong>"Processing":</strong> Any operation performed on personal data, such as collection, storage, use, disclosure, etc.</li>
-                    <li><strong>"Controller":</strong> The entity that determines the purposes and means of processing personal data.</li>
-                    <li><strong>"Processor":</strong> The entity that processes personal data on behalf of the controller.</li>
+                    <li><strong>&quot;Personal Data&quot;:</strong> Any information relating to an identified or identifiable natural person.</li>
+                    <li><strong>&quot;Processing&quot;:</strong> Any operation performed on personal data, such as collection, storage, use, disclosure, etc.</li>
+                    <li><strong>&quot;Controller&quot;:</strong> The entity that determines the purposes and means of processing personal data.</li>
+                    <li><strong>&quot;Processor&quot;:</strong> The entity that processes personal data on behalf of the controller.</li>
                   </ul>
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">20. Your Responsibility</h3>
@@ -374,7 +372,7 @@ export default function Home() {
               </div>
               <div className="ml-3 text-sm">
                 <label htmlFor="accept-terms" className="font-medium text-gray-700">
-                  I have read and agree to Centron Bot's Terms of Service and Privacy Policy
+                  I have read and agree to Centron Bot&apos;s Terms of Service and Privacy Policy
                 </label>
                 <p className="text-gray-500 mt-1">
                   You must accept these terms to continue using Centron Bot services.
