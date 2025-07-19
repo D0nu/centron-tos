@@ -36,7 +36,7 @@ export default function Home() {
               onClick={() => toggleSection('terms')}
             >
               <h2 className="text-lg font-semibold text-gray-800 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 mr-2 text-green-600 transition-transform duration-300 ${openSection === 'terms' ? 'rotate-90' : ''}`} viewBox="0 0 20 20" fill="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 mr-2 text-black transition-transform duration-300 ${openSection === 'terms' ? 'rotate-90' : ''}`} viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                 </svg>
                 Terms of Service
@@ -140,7 +140,7 @@ export default function Home() {
               onClick={() => toggleSection('privacy')}
             >
               <h2 className="text-lg font-semibold text-gray-800 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 mr-2 text-green-600 transition-transform duration-300 ${openSection === 'privacy' ? 'rotate-90' : ''}`} viewBox="0 0 20 20" fill="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 mr-2 text-black transition-transform duration-300 ${openSection === 'privacy' ? 'rotate-90' : ''}`} viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                 </svg>
                 Privacy Policy
